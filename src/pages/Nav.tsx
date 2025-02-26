@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Nav.css"
 import image1 from "./images/freshcart-logo.svg"
+
+
 const Nav = () => {
     return (
 
@@ -37,9 +39,9 @@ const Nav = () => {
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="16" fill="currentColor" className="bi bi-heart  nav_bar_icon" viewBox="0 0 16 16">
                                     <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
                                 </svg> </a>
-                            <a href="">  <Link to='/User'><svg xmlns="http://www.w3.org/2000/svg" width="25" height="16" fill="currentColor" className="bi bi-person  nav_bar_icon " viewBox="0 0 16 16">
+                            <a href="">  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="16" fill="currentColor" className="bi bi-person  nav_bar_icon " viewBox="0 0 16 16">
                                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
-                            </svg></Link></a>
+                            </svg></a>
                             <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="16" fill="currentColor" className="bi bi-bag-heart nav_bar_icon  ms-2" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
                             </svg></a>
@@ -54,48 +56,44 @@ const Nav = () => {
                     </a>
                     <a className="col-1 menus">
                         <nav className="Nav-links">
-                            <Link to='/Home'>Home</Link>
+                            <Link className="p-2 mx-4" to='/'>Home</Link>
                         </nav>
                     </a>
 
                     <a className="col-1 menus">
                         <nav className="Nav-links">
-                            <Link to='/Stores'>Stores</Link>
+                            <Link className="p-2 mx-4" to='/Stores'>Stores</Link>
                         </nav>
                     </a>
 
                     <a className=" col-1 menus">
                         <nav className="Nav-links">
-                            <Link to='/MegaMenu'> Menu</Link>
+                            <Link className="p-2 mx-4" to='/MegaMenu'> Menu</Link>
                         </nav>
                     </a>
                     <a className="col-1 menus">
                         <nav className="Nav-links">
-                            <Link to='/Pages'>Pages</Link>
+                            <Link className="p-2 mx-4" to='/Pages'>Pages</Link>
                         </nav>
                     </a>
                     <a className="col-1 menus">
                         <nav className="Nav-links">
-                            <Link to='/Account'>Account</Link>
+                            <Link className="p-2 mx-4" to='/Account'>Account</Link>
                         </nav>
                     </a>
                     <a className="col-1  menus">
                         <nav className="Nav-links">
-                            <Link to='/Pages'>Dashboard</Link>
+                            <Link className="p-2 mx-4" to='/Dashboard'>Dashboard</Link>
                         </nav> </a>
                     <a className="col-2 menus">
                         <nav className="Nav-links">
-                            <Link to='/Docs'>Docs</Link>
+                            <Link className="p-2 mx-4" to='/Docs'>Docs</Link>
                         </nav>
                     </a>
                 </div>
             </div>
             <hr />
         </div>
-
-
-
-
 
     )
 }

@@ -1,15 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+*{padding: 0;
+margin: 0;}
 
-.home_card{
-/* background-color: antiquewhite; */
-}
 
-.card_paragraph{
-    background-color: yellow;
+.card1{
+    background-color: rgb(204, 234, 216);
     border-radius: 10px;
-    color: aquamarine;
-    border: 0;  
-}
+  
+  }
+  
+  .home_card {
+    background-color: rgb(204, 234, 216);
+    margin-top: 20px;
+  }
+  
+  .card_paragraph {
+    background-color: rgb(255, 220, 24);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    width: fit-content;
+    margin-top: 100px;
+  }
+  
+  .card_heading {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  
+  .card_paragraph2 {
+   font-size:medium;  
+   font-weight: 500; 
+  }
+  .shop_btn:hover{
+    background-color: rgb(50, 49, 49);
+    border: 0;
+  }
+  
+  .contentimg{
+    border-radius: 10px;
+    height: 30rem;
+  }
+
+  .feature_list{
+    border: 1px solid black;
+   
+  }
