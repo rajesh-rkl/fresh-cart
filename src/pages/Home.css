@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.home_card{
+/* background-color: antiquewhite; */
+}
+
+.card_paragraph{
+    background-color: yellow;
+    border-radius: 10px;
+    color: aquamarine;
+    border: 0;  
+}

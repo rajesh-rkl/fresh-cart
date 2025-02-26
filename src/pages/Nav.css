@@ -1,87 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  
-  .nav_content1 {
-    background-color: rgb(235, 238, 241);
-    
-  }
-  
-  .nav_content {
-   /* margin: 6px 5rem; */
-    font-size: 15px;
-    font-weight: 50px;
-    color: rgb(104, 102, 102);
-  }
-  
-  
-  
-  
-  .drop_down {
-    /* margin: 5px 17rem; */
-    background-color: rgb(233, 235, 237);
-    border: 0px;
-    color: rgb(104, 102, 102);
-   
-  }
-  
-  .menus{
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .text-white {
-    background: #0aad0a;
-    width: 11.5rem;
-  }
-  
-  .Nav-links {
-    font-size: 15px;
-    display: flex;
-    color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.head_bar {
+  font-size: 15px;
+  font-weight: 50px;
+  background-color: rgb(104, 102, 102);
+}
+
+.nav_content {
+  margin: 2px 0 0 70px;
+}
+
+.text-white:hover {
+  background-color: #00d200;
+}
+
+.drop_down {
+  width: 7rem;
+  background-color: rgb(104, 102, 102);
+  border: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.text-white {
+  background: #0aad0a;
+  width: 11.5rem;
+}
+
+.Nav-links {
+  font-size: 15px;
+  display: flex;
+  color: black;
   margin-top: 8px;
   text-decoration: none;
-  }
-  
-  option {
-    border: 0px;
-  }
-  
-  .search_bar {
-    width: 30rem;
-    margin: 25px 5rem;
-    height: 40px;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    border: 1px solid rgb(213, 210, 210);
-  }
-  svg{
-    color: #565756;
-  }
-  
-  .location {
-    margin: 25px 20px;
-    width: 7rem;
-    height: 35  px;
-    border-radius: 6px;
-    border: 1px solid rgb(213, 210, 210);
-   
-  }
-  
-  .location:hover {
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .nav_bar_icon {
-    margin: 35px 12px;
-  }
-  
-  .nav_deporrtment {
-    width: 10rem;
-  }
-  .deporrtment_option {
-    background-color: rgb(9, 169, 19);
-  }
+}
+
+option {
+  border: 0px;
+}
+
+.search_bar {
+  width: 30rem;
+  margin: 25px 5rem;
+  height: 40px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid rgb(213, 210, 210);
+}
+svg {
+  color: #565756;
+}
+
+.location {
+  margin: 25px 20px;
+  width: 7rem;
+  height: 35 px;
+  border-radius: 6px;
+  border: 1px solid rgb(213, 210, 210);
+}
+
+.location:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav_bar_icon {
+  margin: 35px 12px;
+}
+
+.nav_deporrtment {
+  width: 10rem;
+}
+.deporrtment_option {
+  background-color: rgb(9, 169, 19);
+}

@@ -4,25 +4,16 @@ import image1 from "./images/freshcart-logo.svg"
 const Nav = () => {
     return (
 
-        <div>
-            {/* <div className="d-flux" >
-                <p className="row  nav_content">Super Value Deals - Save more with coupons</p>
-                <select className="drop_down" name="" id="">
+
+        <div className="container-fluid ">
+            <div className="row d-flex justify-content-between head_bar" >
+                <p className=" col-6 nav_content">Super Value Deals - Save more with coupons</p>
+                <select className=" col-6 mx-lg-5 drop_down " name="" id="">
                     <option value="">English</option>
                     <option value="">Deutsch</option>
+
                 </select>
-            </div> */}
-            {/* <div className="row  nav_content1">
-                <div className="col-6 ">
-                    <p className="row  nav_content">Super Value Deals - Save more with coupons</p>
-                </div>
-                <div className=" col-6">
-                    <select className="drop_down" name="" id="">
-                        <option value="">English</option>
-                        <option value="">Deutsch</option>
-                    </select>
-                </div>
-            </div> */}
+            </div>
 
             <div className="container">
                 <div className="row">
@@ -33,9 +24,11 @@ const Nav = () => {
                         <input className=" search_bar" placeholder="      Search For Products  🔍" type="text" />
                     </div>
                     <div className="col-2 location">
-                        <a className="location_icon" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill me-2" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                        </svg>Location
+                        <a className="location_icon d-flux" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-geo-alt-fill mt-1 me-2" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                            </svg>
+                            Location
                         </a>
                     </div>
                     <div className="col-2">
@@ -90,9 +83,9 @@ const Nav = () => {
                         <nav className="Nav-links">
                             <Link to='/Pages'>Dashboard</Link>
                         </nav> </a>
-                    <a className="col-3 menus">
+                    <a className="col-2 menus">
                         <nav className="Nav-links">
-                            <Link to='/Account'>Docs</Link>
+                            <Link to='/Docs'>Docs</Link>
                         </nav>
                     </a>
                 </div>
