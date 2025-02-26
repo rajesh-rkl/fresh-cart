@@ -45,3 +45,8 @@ margin: 0;}
     border: 1px solid black;
    
   }
+
+  .product_list_cards{
+    display: grid;
+  }
+  

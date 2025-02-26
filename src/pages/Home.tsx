@@ -27,22 +27,25 @@ const Home = () => {
             <div>
                 <h3 className="mt-5 ms-5 ">Featured Categories</h3>
             </div>
-            <div>   <div className="row ms-5">
-                <div className="feature_list col-3">
+            <div>   <div className="product_list_cardsow    ">
+                <div className="feature_list ">
                     <img src={cleaning} alt="" />
                 </div>
-                <div className="feature_list col-3">
+                <div className="feature_list ">
                     <img src={petCare} alt="" />
                 </div>
-                <div className="feature_list col-3">
+                <div className="feature_list ">
                     <img src={FtuitsVegedable} alt="" />
                 </div>
-                <div className="feature_list col-3">
+                <div className="feature_list">
                     <img src={coldDrink} alt="" />
                 </div>
             </div>
             </div>
         </div>
+
+
+
     )
 }
 
