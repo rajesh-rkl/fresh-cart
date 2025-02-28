@@ -68,3 +68,69 @@
   display: flex;
   justify-content: center;
 }
+.shop_parent_card {
+  display: flex;
+  margin: 50px 40px;
+}
+
+.shoping_card_image1 {
+  background-image: url(./images/frouts-image.png);
+  background-size: cover;
+  height: 12rem;
+  width: 35rem;
+}
+.shoping_card_image2 {
+  background-image: url(./images/snacks-image.jpg);
+  background-size: cover;
+  height: 12rem;
+  width: 35rem;
+}
+
+.lists_of_broduct {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.list_of_product {
+  border: 1px solid rgb(195, 194, 194);
+  border-radius: 5px;
+  width: 12rem;
+}
+
+.list_of_product_img{
+width: 180px;
+}
+
+.lists_of_broduct_par {
+  font-size: smaller;
+  font-weight: 600;
+  color: rgb(129, 129, 129);
+  height: fit-content;
+
+}
+
+.lists_of_broduct_head{
+ margin-left: 2rem;
+}
+
+.list_of_product_discount{
+  position: absolute;
+  z-index: 1;
+  margin: 5px;
+}
+.svg_image{
+  margin: 1px;
+
+}
+.list_of_product_reting{
+  font-size: smaller;
+  color: rgb(103, 104, 105);
+}
+.product_add_card_btn{
+  background-color: rgb(91, 225, 91);
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  width: 4rem;
+}
