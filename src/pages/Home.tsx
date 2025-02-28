@@ -1,12 +1,16 @@
+import { Form } from "react-router-dom"
 import "./Home.css"
-import ContentImg from "./images/Screenshot 2025-02-24 200403.png"
+import imag10001 from "./images/10001.png"
+import ContentImg from "./images/1000055.jpg"
 import cleaning from "./images/category-cleaning-essentials.jpg"
 import coldDrink from "./images/category-cold-drinks-juices.jpg"
 import FtuitsVegedable from "./images/category-fruits-vegetables.jpg"
 import petCare from "./images/category-pet-care.jpg"
 
+
 const Home = () => {
     return (
+
         <div>
             <div className="container">
                 <div className="row  card1 ">
@@ -21,32 +25,37 @@ const Home = () => {
                     <div className="col-5">
                         <img className=" contentimg" src={ContentImg} alt="" />
                     </div>
+
                 </div>
+                <h3 className="mt-5">Featured Categories</h3>
             </div>
 
-            <div>
-                <h3 className="mt-5 ms-5 ">Featured Categories</h3>
+
+            <div className=" ms-5 me-5  mt-4 product_list_cardsow">
+
+                <a className="products_list  " href="">
+                    <img className="products_list_pic" src={cleaning} alt="" />
+                    <p className="products_list_names"  >Cleaning Essential</p>
+                </a>
+                <a className="products_list  " href="">
+                    <img className="products_list_pic" src={petCare} alt="" />
+                    <p className="products_list_names"  >Pet Care</p>
+                </a>
+                <a className="products_list  " href="">
+                    <img className="products_list_pic" src={FtuitsVegedable} alt="" />
+                    <p className="products_list_names">Fruits & Vegetables</p>
+                </a>
+                <a className="products_list  " href="">
+                    <img className="products_list_pic" src={coldDrink} alt="" />
+                    <p className="products_list_names">Cool Drinks</p>
+                </a>
+
             </div>
-            <div>   <div className="product_list_cardsow    ">
-                <div className="feature_list ">
-                    <img src={cleaning} alt="" />
-                </div>
-                <div className="feature_list ">
-                    <img src={petCare} alt="" />
-                </div>
-                <div className="feature_list ">
-                    <img src={FtuitsVegedable} alt="" />
-                </div>
-                <div className="feature_list">
-                    <img src={coldDrink} alt="" />
-                </div>
-            </div>
-            </div>
+
+
         </div>
 
-
-
     )
-}
+};
 
 export default Home;
