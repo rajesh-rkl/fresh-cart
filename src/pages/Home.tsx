@@ -37,7 +37,7 @@ const Home = () => {
 
         <div>
             <div className="fixed_button">
-            <a target="_blank" className="btn btn-dark btn-float-button m-5 fs-5" href="https://bit.ly/3ZXO47D"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M12.5 17h-6.5v-14h-2"></path><path d="M6 5l14 1l-1 7h-13"></path><path d="M16 22l5 -5"></path><path d="M21 21.5v-4.5h-4.5"></path></svg>  Buy Now</a>
+                <a target="_blank" className="btn btn-dark btn-float-button m-5 fs-5" href="https://bit.ly/3ZXO47D"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart-share"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M12.5 17h-6.5v-14h-2"></path><path d="M6 5l14 1l-1 7h-13"></path><path d="M16 22l5 -5"></path><path d="M21 21.5v-4.5h-4.5"></path></svg>  Buy Now</a>
             </div>
             <div className="container">
                 <div className="row  card1 ">
@@ -166,7 +166,8 @@ const Home = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="currentColor" className="bi bi-star-fill mt-2 text-warning"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path></svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="currentColor" className="bi bi-star-fill mt-2 text-warning"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path></svg>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="currentColor" className="bi bi-star-fill mt-2 text-warning"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path></svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="currentColor" className="bi bi-star-half mt-2 text-warning"><path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="currentColor" className="bi bi-star-half mt-2 text-warning">
+                            <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"></path></svg>
                         <p className=" mt-1 ms-1 list_of_product_reting">4.3 (4)</p>
                     </div>
                     <div className=" ms-2  d-flex"><h6 >$11.7 $18</h6><a className="ms-5 mb-3 product_add_card_btn" href=""> + Add</a></div>
@@ -529,12 +530,12 @@ const Home = () => {
 
                 <hr />
                 <div className="row">
-                    <div className="col-6 d-flex "> <h5 className="fooder_pament">Payment Partners</h5> <img className="ms-2" src={amazonpay} alt="" /> <img className="ms-2" src={americanExpress} alt="" /><img className="ms-2" src={mastercard} alt="" /> <img className="ms-2" src={paypal} alt="" /><img className="ms-2" src={visa} alt="" /> </div>
-                    <div className="col-6 d-flex"><h5 className="fooder_pament">Get deliveries with FreshCart</h5>  <a href=""><img className="ms-3 me-3" src={appstore} alt="" /></a> <a href=""><img  src={googleplay} alt="" /></a></div>
+                    <div className="col-6 d-flex "> <h5 className="fooder_pament ms-4">Payment Partners</h5> <img className="ms-2" src={amazonpay} alt="" /> <img className="ms-2" src={americanExpress} alt="" /><img className="ms-2" src={mastercard} alt="" /> <img className="ms-2" src={paypal} alt="" /><img className="ms-2" src={visa} alt="" /> </div>
+                    <div className="col-6 d-flex"><h5 className="fooder_pament">Get deliveries with FreshCart</h5>  <a href=""><img className="ms-3 me-3" src={appstore} alt="" /></a> <a href=""><img src={googleplay} alt="" /></a></div>
                 </div>
                 <hr />
                 <p className="data ms-5">© 2022 - 2025 FreshCart eCommerce HTML Template. All rights reserved. Powered by</p>
-<a  className="ms-5 fs-6 " href="">Codescandy.</a>
+                <a className="ms-5 fs-6 " href="">Codescandy.</a>
             </div>
 
 

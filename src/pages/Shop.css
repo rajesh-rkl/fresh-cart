@@ -1,0 +1,41 @@
+.image{
+    border-radius: 50% ;
+}
+.cards{
+    width: 65vh;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 225, 225);
+}
+
+.cards:hover{
+   border: 1px solid rgb(57, 255, 57) ;
+}
+
+a{
+    padding: 3px ;
+    background-color: rgb(223, 219, 219);
+    border-radius: 10px;
+}
+
+.heading{
+    color: black;
+}
+
+.heading:hover{
+    color: rgb(1, 151, 8);
+}
+
+.text-green{
+    color: rgb(1, 151, 8);
+
+}
+
+.containers{
+    margin: 0 5rem;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,auto) ;
+    grid-template-rows: repeat(3,auto);
+}
