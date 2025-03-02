@@ -98,8 +98,13 @@
   width: 12rem;
 }
 
-.list_of_product_img{
-width: 180px;
+.list_of_product:hover {
+  border: 1px solid green;
+  box-shadow: 5px 0.5px 5px 1px rgb(226, 229, 229);
+}
+
+.list_of_product_img {
+  width: 180px;
 }
 
 .lists_of_broduct_par {
@@ -107,30 +112,139 @@ width: 180px;
   font-weight: 600;
   color: rgb(129, 129, 129);
   height: fit-content;
-
 }
 
-.lists_of_broduct_head{
- margin-left: 2rem;
+.lists_of_broduct_head {
+  margin-left: 2rem;
+  font-size: 14px;
 }
 
-.list_of_product_discount{
+.lists_of_broduct_head:hover {
+  color: rgb(35, 160, 62);
+}
+
+.list_of_product_discount {
   position: absolute;
   z-index: 1;
   margin: 5px;
 }
-.svg_image{
+.svg_image {
   margin: 1px;
-
 }
-.list_of_product_reting{
+.list_of_product_reting {
   font-size: smaller;
   color: rgb(103, 104, 105);
 }
-.product_add_card_btn{
-  background-color: rgb(91, 225, 91);
+.product_add_card_btn {
+  background-color: rgb(37, 128, 37);
   display: flex;
+  color: aliceblue;
   align-items: center;
   border-radius: 3px;
+  width: 3rem;
+}
+
+.fooder_card_parent {
+  display: flex;
+}
+
+.fooder_card_bg {
+  background-image: url(./images/tea_power.jpg);
+  background-size: cover;
+  height: 29rem;
+  width: 16rem;
+  border-radius: 10px;
+}
+
+.shop_now_button {
+  background-color: rgb(23, 137, 25);
+}
+
+.shop_now_button:hover {
+  background-color: rgb(64, 187, 67);
+}
+
+.fooder_card {
+  width: 16rem;
+  height: 35rem;
+  border: 1px solid rgb(71, 70, 70);
+  border-radius: 5px;
+}
+.counton_days {
+  border: 1px solid rgb(218, 217, 217);
+  color: rgb(102, 105, 108);
+  border-radius: 5px;
   width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.counton_sec {
+  border: 1px solid rgb(223, 220, 220);
+  color: rgb(102, 105, 108);
+  border-radius: 5px;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 95px;
+}
+.fooder_card:hover {
+  border: 1px solid rgb(23, 172, 23);
+  box-shadow: 5px 0.5px 5px 1px rgb(226, 229, 229);
+}
+
+.add_card_btn {
+  background-color: rgb(32, 148, 32);
+  width: 13rem;
+}
+.add_card_btn:hover {
+  background-color: rgb(50, 192, 78);
+}
+
+
+.foot-container{
+  height:95vh ;
+  background-color: rgb(238, 238, 238);
+  
+  
+}
+
+.foot-content{
+  padding-top: 5rem;
+  justify-content: space-around;
+}
+.data{
+  color: rgb(100, 100, 100);
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.data:hover{
+  color: rgb(1, 151, 8);
+  cursor: pointer;
+}
+
+
+
+.fooder_pament{
+  font-size: small;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.fixed_button{
+  margin-left: 64rem;
+
+}
+
+.btn-float-button{
+position: fixed;
+z-index: 1;
+margin-left: 200px;
+
 }

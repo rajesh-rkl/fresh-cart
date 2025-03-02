@@ -59,6 +59,11 @@ const Nav = () => {
                             <Link className="p-2 mx-4" to='/'>Home</Link>
                         </nav>
                     </a>
+                    <a className="col-1 menus">
+                        <nav className="Nav-links">
+                            <Link className="p-2 mx-4" to='/Shop'>Shop</Link>
+                        </nav>
+                    </a>
 
                     <a className="col-1 menus">
                         <nav className="Nav-links">
