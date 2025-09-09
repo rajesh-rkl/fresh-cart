@@ -1,4 +1,4 @@
-    
+
 import "./Home.css"
 import ContentImg from "./images/1000055.jpg"
 import cleaning from "./images/category-cleaning-essentials.jpg"
@@ -344,7 +344,7 @@ const Home = () => {
             <div className=" mt-4  fooder_card_parent">
                 <div className="ms-5">
                     <div className="ms-4 fooder_card_bg">
-                        <h3 className="ms-3">100% Organic Coffee Beans.</h3>
+                        <h3 className="ms-3 ">100% Organic Coffee Beans.</h3>
                         <p>Get the best deal before <br /> close.</p>
                         <button className="shop_now_button">Shop Now </button>
                     </div>
@@ -468,7 +468,7 @@ const Home = () => {
             </div>
 
 
-            <div className=" foot-container">
+            <div className="foot-container">
                 <div className='d-flex ms-5 me-5 foot-content' >
                     <div className='d-flex flex-column'>
                         <h6>Categories</h6>
@@ -530,18 +530,13 @@ const Home = () => {
 
                 <hr />
                 <div className="row">
-                    <div className="col-6 d-flex "> <h5 className="fooder_pament ms-4">Payment Partners</h5> <img className="ms-2" src={amazonpay} alt="" /> <img className="ms-2" src={americanExpress} alt="" /><img className="ms-2" src={mastercard} alt="" /> <img className="ms-2" src={paypal} alt="" /><img className="ms-2" src={visa} alt="" /> </div>
+                    <div className="col-5 d-flex "> <h5 className="fooder_pament ms-4">Payment Partners</h5> <img className="ms-2" src={amazonpay} alt="" /> <img className="ms-2" src={americanExpress} alt="" /><img className="ms-2" src={mastercard} alt="" /> <img className="ms-2" src={paypal} alt="" /><img className="ms-2" src={visa} alt="" /> </div>
                     <div className="col-6 d-flex"><h5 className="fooder_pament">Get deliveries with FreshCart</h5>  <a href=""><img className="ms-3 me-3" src={appstore} alt="" /></a> <a href=""><img src={googleplay} alt="" /></a></div>
                 </div>
                 <hr />
-                <p className="data ms-5">© 2022 - 2025 FreshCart eCommerce HTML Template. All rights reserved. Powered by</p>
+                <p className="data ms-6">© 2022 - 2025 FreshCart eCommerce HTML Template. All rights reserved. Powered by</p>
                 <a className="ms-5 fs-6 " href="">Codescandy.</a>
             </div>
-
-
-
-
-
         </div>
 
 
